@@ -1,6 +1,4 @@
-#write a python script to calculate simple interest.
-principle=float(input())
-rate=float(input())
-time=float(input())
-si= (principle * rate * time)/100
-print("The SI will be", si)
+print("Enter the number")
+n=int(input())
+for r in range(1,n+1):
+    print(r * r)
