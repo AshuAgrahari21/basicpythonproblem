@@ -1,4 +1,5 @@
-#write a python script to remove last digit from given number.
+print("enter the number")
 a=int(input())
-b= int(a/10)
-print(b)
+for i in a/2:
+        print(i)
+        i+=i
